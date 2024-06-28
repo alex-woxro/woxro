@@ -57,3 +57,42 @@ export const WORKS_CARD = [
   },
 
 ]
+
+
+
+
+
+//choose card
+export const CHOOSE_CARD = [
+  {
+    name: 'Quick Response',
+    title: 'Exceptionally fast implementation, deployment, and maintenance enables truly agile development',
+    image: '/assets/icons/chooseUs/1.png',
+  },
+  {
+    name: 'Requirement Gathering',
+    title: 'We offer unlimited remote and onsite support with round-the-clock cover as standard and 24/7 options.',
+    image: '/assets/images/works/2.png',
+  },
+  {
+    name: 'Experienced Staffs',
+    title: 'We offer unlimited remote and onsite support with round-the-clock cover as standard and 24/7 options. ',
+    image: '/assets/images/works/3.png',
+  },
+  {
+    name: 'Scaleable Platform',
+    title: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.',
+    image: '/assets/images/works/4.png',
+  },
+  {
+    name: 'Legacy Free',
+    title: 'Applications & Platforms that never become obsolete and grow capabilities over time.',
+    image: '/assets/images/works/5.png',
+  },
+  {
+    name: '100% Satisfaction',
+    title: 'We believe we are nothing without delivery to our clients’ absolute satisfaction.',
+    image: '/assets/images/works/6.png',
+  },
+
+]
