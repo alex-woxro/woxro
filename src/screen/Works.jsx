@@ -20,18 +20,17 @@ const Works = () => {
           </div>
         </div>
 
-        <div className='m-auto w-[80%] flex justify-center'>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-[30px]">
+        <div className='m-auto w-[70%]  border'>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-[30px] place-items-center">
             {WORKS_CARD.map((card, index) => (
               <div key={index} className="2xl:w-[300px] h-full xl:w-[250px] lg:w-[200px]  flex flex-col gap-2">
-                <Image src={dummyimg} height={300} width={300} alt='card-img' />
+                <Image src={card.image} height={300} width={300} alt='card-img' />
                 <div className='text-[#0E4FCA] 2xl:text-xl xl:text-sm font-ibmPlexSans font-normal'>{card.name}</div>
                 <div className='leading-[1.3rem] text-lg font-ibmPlexSans font-normal'>{card.title}</div>
               </div>
             ))}
           </div>
         </div>
-
       </div>
 
       <div className='text-white  py-80 flex flex-col justify-center items-center gap-20 bg-[#0B0B0B]'>
@@ -128,7 +127,6 @@ const Works = () => {
 
 
 
-
       <div className='bg-[#0B0B0B] pt-60 pb-36 px-28 text-white flex flex-col gap-14'>
         <div className='font-roboto font-thin text-6xl'>We're building an equitable world by <br />championing change with digital.</div>
         <div className='font-ibmPlexSans font-thin text-2xl text-[#B0B0B0]'>
@@ -150,8 +148,6 @@ const Works = () => {
         </div>
       </div>
 
-
-
       <div className='pt-32 pb-80'>
         <div className='flex flex-col gap-7 justify-center items-center'>
           <div className='text-center text-5xl  font-light font-roboto'>Stay in the loop !</div>
@@ -160,6 +156,8 @@ const Works = () => {
             keep them concise, informative, and to the point.
           </div>
         </div>
+
+
 
         <div className='flex items-center justify-center mt-24'>
           <div className='grid grid-cols-3 gap-10'>
@@ -174,15 +172,9 @@ const Works = () => {
                   </div>
                   <div className='mt-4 font-robot leading-6 text-lg font-medium'>{event.titile}</div>
                 </div>
-
-
-
               </div>
-
             ))}
           </div>
-
-
 
 
         </div>
