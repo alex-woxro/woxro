@@ -19,7 +19,7 @@ const Works = () => {
           </div>
         </div>
 
-        <div className='m-auto w-[70%]  border'>
+        <div className='m-auto w-[70%]'>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-[30px] place-items-center">
             {WORKS_CARD.map((card, index) => (
               <div key={index} className="2xl:w-[300px] h-full xl:w-[250px] lg:w-[200px]  flex flex-col gap-2">
