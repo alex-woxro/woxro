@@ -1,7 +1,6 @@
 import { CHOOSE_CARD, EVENTS, INDUSTRY_CARD, INDUSTRY_LOGOS, WORKS_CARD } from '@/const'; // Assuming this imports your WORKS_CARD array correctly
 import Image from 'next/image';
 import React from 'react';
-import dummyimg from '/src/assets/images/works/5.png'
 import LarrWhite from '/public/assets/icons/button/r-arr-white.png'
 import LarrBlack from '/public/assets/icons/button/r-arr-black.png'
 import { PiGreaterThanThin } from "react-icons/pi";
@@ -126,7 +125,6 @@ const Works = () => {
       </div>
 
 
-
       <div className='bg-[#0B0B0B] pt-60 pb-36 px-28 text-white flex flex-col gap-14'>
         <div className='font-roboto font-thin text-6xl'>We're building an equitable world by <br />championing change with digital.</div>
         <div className='font-ibmPlexSans font-thin text-2xl text-[#B0B0B0]'>
@@ -158,7 +156,6 @@ const Works = () => {
         </div>
 
 
-
         <div className='flex items-center justify-center mt-24'>
           <div className='grid grid-cols-3 gap-10'>
             {EVENTS.map((event) => (
@@ -175,38 +172,9 @@ const Works = () => {
               </div>
             ))}
           </div>
-
-
         </div>
 
-
-
-
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
