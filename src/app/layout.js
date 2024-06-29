@@ -1,12 +1,34 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/nav/Navbar";
+import { Inter, Poppins, Roboto, IBM_Plex_Sans } from 'next/font/google'
 
 
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  weight: '400'
+})
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  variable: '--font-poppins',
+  weight: ['200', '300', '400', '500'],
+})
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  variable: '--font-roboto',
+  weight: ['100', '300', '400', '500'],
+})
 
 
+const ibmPlexSans = IBM_Plex_Sans({
+  subsets: ['latin'],
+  variable: '--font-ibm-plex-sans',
+  weight: ['200', '300', '400', '500'],
+});
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata = {
   title: "Create Next App",
@@ -16,7 +38,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${poppins.variable} ${roboto.variable} ${ibmPlexSans.variable}`}>
         <Navbar />
         {children}
       </body>

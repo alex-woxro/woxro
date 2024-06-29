@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* banner video seciton */
 .banner {
   position: relative;
   width: 100%;
@@ -15,8 +16,6 @@
   object-fit: cover;
 }
 
-
-
 .text-container {
   position: relative;
   z-index: 10;
@@ -29,35 +28,47 @@
   text-align: center;
 }
 
-
-
-
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* progress bar on consult section */
+.progress-container {
+  /* border: 1px solid red; */
+  height: 280px;
+  position: relative;
+  /* width: 450px; */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.progress-line {
+  border-left: 2px dotted #fff;
+  height: 100%;
+  position: absolute;
+  left: 16px;
+  top: 0;
+  z-index: 0;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.progress-step {
+  /* border: 1px solid blue; */
+  z-index: 1;
+  position: absolute;
+  /* width: 450px; */
+  display: flex;
+  gap: 1rem;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-} */
+.progress-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color:black;
+}
+
+.progress-title {
+  /* border: 1px solid black; */
+  max-width: 380px;
+  width: 100%;
+}

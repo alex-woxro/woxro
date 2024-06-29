@@ -28,10 +28,10 @@ const Navbar = () => {
   }, []); // Empty dependency array ensures this effect runs only once after initial render
 
   return (
-    <div className={`z-20 fixed w-full ${color ? 'bg-black' : ''} pl-[72px] pr-[94px] pt-[30px]`}>
+    <div className={`z-20 fixed w-full ${color ? 'bg-black' : ''} pl-16 pr-24 pt-7`}>
       <div className='flex justify-end items-center '>
         <div className='flex gap-[84px] items-center'>
-          <ul className='flex items-center text-[16px] gap-[56px] leading-[22px] text-white font-normal'>
+          <ul className='flex items-center text-lg gap-[56px] leading-[22px] text-white font-normal font-ibmPlexSans'>
             {NAV_LINKS.map((nav) => (
               <li key={nav.title}>
                 <Link href={nav.href}>{nav.title}</Link>
