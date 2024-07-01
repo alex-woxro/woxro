@@ -1,12 +1,12 @@
 import { SERVICE } from '@/const'
+import Image from 'next/image'
 import React from 'react'
+
+
 
 const Service = () => {
   return (
     <div className='pt-[154px] pb-[170px] px-[100px]'>
-
-
-
 
       <div className='flex justify-between'>
         <div className='roboto font-thin text-[70px]'>Services</div>
@@ -25,19 +25,17 @@ const Service = () => {
 
 
 
-      <div>
+      <div className='mt-20'>
 
 
         <div className='grid grid-cols-3'>
 
           {SERVICE.map((exp) => (
-            <div>
-
-              <Image src={exp.image} />
+            <div className='border border-red-500 max-w-[448px] h-auto'>
+              <Image src={exp.image} width={448} height={258} />
               <div>{exp.titile}</div>
               <div>{exp.description}</div>
-
-
+              <Image src={exp.image} width={20} height={14} />
             </div>
 
           ))}
