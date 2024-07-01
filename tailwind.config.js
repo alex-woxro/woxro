@@ -26,6 +26,9 @@ module.exports = {
         'link-blue': '#0E4FCA',
         'dull-grey': '#626262',
       },
+      screens: {
+        '3xl': {'min': '1728px'},
+      },
     },
   },
   plugins: [],

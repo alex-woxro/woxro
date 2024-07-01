@@ -206,3 +206,194 @@ export const EVENTS = [
   },
 
 ]
+
+
+
+
+
+
+
+
+
+//footer links
+export const FOOTER_EXPLORE = [
+  {
+    id: 1,
+    link: 'Our Company',
+  },
+  {
+    id: 2,
+    link: 'Founder`s Letter',
+  },
+  {
+    id: 3,
+    link: 'Accessibility',
+  },
+  {
+    id: 4,
+    link: 'Woxapps',
+  },
+  {
+    id: 5,
+    link: 'Woxhost'
+  },
+  {
+    id: 6,
+    link: 'Woxzine e-magazine'
+  },
+  {
+    id: 7,
+    link: 'Get a quote'
+  },
+  {
+    id: 8,
+    link: 'Get a quote'
+  },
+]
+
+export const FOOTER_SUPPORT = [
+  {
+    id: 1,
+    link: 'COVID-19 Response',
+  },
+  {
+    id: 2,
+    link: 'Client Portal',
+  },
+  {
+    id: 3,
+    link: 'Support Ticket',
+  },
+  {
+    id: 4,
+    link: 'Terms of Service',
+  },
+]
+
+
+
+
+//footer links
+export const FOOTER_QUICK_LINKS = [
+  {
+    id: 1,
+    link: 'Home',
+  },
+  {
+    id: 2,
+    link: 'About Us',
+  },
+  {
+    id: 3,
+    link: 'Our Services',
+  },
+  {
+    id: 4,
+    link: 'Technology',
+  },
+  {
+    id: 5,
+    link: 'Careers'
+  },
+  {
+    id: 6,
+    link: 'Partnershop'
+  },
+  {
+    id: 7,
+    link: 'Portfolio'
+  },
+]
+
+
+export const FOOTER_CONNECT = [
+  {
+    id: 1,
+    titile: 'W! India',
+    phone: '+91 4802081730'
+  },
+  {
+    id: 2,
+    titile: 'W! UK',
+    phone: '+447 831322765'
+  },
+  {
+    id: 3,
+    titile: 'Sales Team',
+    phone: '+91 4802082731'
+  },
+  {
+    id: 4,
+    titile: 'HR Team',
+    phone: '+91 9778800739'
+  },
+]
+
+
+export const FOOTER_LOGOS = [
+  {
+    id: 1,
+    image: '/assets/icons/footer/fb1.png',
+  },
+  {
+    id: 2,
+    image: '/assets/icons/footer/linkedin2.png',
+  },
+  {
+    id: 3,
+    image: '/assets/icons/footer/twitter3.png',
+  },
+  {
+    id: 4,
+    image: '/assets/icons/footer/insta4.png',
+  },
+  {
+    id: 5,
+    image: '/assets/icons/footer/dribble5.png',
+  },
+  {
+    id: 6,
+    image: '/assets/icons/footer/clutch6.png',
+  },
+]
+
+
+
+export const SERVICE = [
+  {
+    id: 1,
+    image: '/assets/images/services/1.png',
+    titile: 'Website',
+    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+  },
+  {
+    id: 2,
+    image: '/assets/images/services/2.png',
+    titile: 'Website',
+    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+  },
+  {
+    id: 3,
+    image: '/assets/images/services/3.png',
+    titile: 'Website',
+    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+  },
+  {
+    id: 4,
+    image: '/assets/images/services/4.png',
+    titile: 'Website',
+    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+  },
+  {
+    id: 5,
+    image: '/assets/images/services/5.png',
+    titile: 'Website',
+    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+  },
+  {
+    id: 6,
+    image: '/assets/images/services/6.png',
+    titile: 'Website',
+    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+  },
+]
