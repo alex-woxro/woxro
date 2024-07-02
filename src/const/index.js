@@ -66,32 +66,32 @@ export const WORKS_CARD = [
 export const CHOOSE_CARD = [
   {
     name: 'Quick Response',
-    title: 'Exceptionally fast implementation, deployment, and maintenance enables truly agile development',
+    title: 'Exceptionally fast implementation, \ndeployment, and maintenance enables truly \nagile development',
     image: '/assets/icons/chooseUs/1.png',
   },
   {
     name: 'Requirement Gathering',
-    title: 'We offer unlimited remote and onsite support with round-the-clock cover as standard and 24/7 options.',
+    title: 'We offer unlimited remote and onsite support \nwith round-the-clock cover as standard and \n24/7 options.',
     image: '/assets/icons/chooseUs/2.png',
   },
   {
     name: 'Experienced Staffs',
-    title: 'We offer unlimited remote and onsite support with round-the-clock cover as standard and 24/7 options. ',
+    title: 'We offer unlimited remote and onsite support \nwith round-the-clock cover as standard and \n24/7 options. ',
     image: '/assets/icons/chooseUs/3.png',
   },
   {
     name: 'Scaleable Platform',
-    title: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.',
+    title: 'The Elastic infrastructure supporting \nthousands of concurrent users on an up-\ngradation basis.',
     image: '/assets/icons/chooseUs/4.png',
   },
   {
     name: 'Legacy Free',
-    title: 'Applications & Platforms that never become obsolete and grow capabilities over time.',
+    title: 'Applications & Platforms that never \nbecome obsolete and grow capabilities \nover time.',
     image: '/assets/icons/chooseUs/5.png',
   },
   {
     name: '100% Satisfaction',
-    title: 'We believe we are nothing without delivery to our clients’ absolute satisfaction.',
+    title: 'We believe we are nothing without \ndelivery to our clients’ absolute \nsatisfaction.',
     image: '/assets/icons/chooseUs/6.png',
   },
 
@@ -104,24 +104,24 @@ export const CHOOSE_CARD = [
 export const INDUSTRY_CARD = [
   {
     name: 'Consumer Products',
-    title: 'Designing and developing quality consumable products involves deep dives to understand user- needs. In our initial design-thinking led process we start with your customer and work backwards to find the right solution.',
+    title: 'Designing and developing quality consumable \nproducts involves deep dives to understand user- \nneeds. In our initial design-thinking led process \nwe start with your customer and work backwards \nto find the right solution.',
   },
   {
     name: 'Healthcare',
-    title: 'In the Healthcare industry, we can relate to a common theme; quality care. We do our part to deliver the highest-quality work with attention to detail for our clients.',
+    title: 'In the Healthcare industry, we can relate to a \ncommon theme; quality care. We do our part to \ndeliver the highest-quality work with attention \nto detail for our clients.',
   },
   {
     name: 'Ad Marketing / Technology',
-    title: 'We support many clients in mobile, social advertising agencies, and technology service providers—we ve increased their target audience conversions through powerful insight and AI tools and improved efficiency.',
+    title: 'We support many clients in mobile, social advertising \nagencies, and technology service providers—we`ve \nincreased their target audience conversions through \npowerful insight and AI tools and improved \nefficiency.',
 
   },
   {
     name: 'High Tech & Software Startups',
-    title: 'Technology is fast-paced and ever-changing; we strive to move even faster. We work with business leaders to bring together people, new ideas, and technology to create unique and viable platforms for their customers.',
+    title: 'Technology is fast-paced and ever-changing; we \nstrive to move even faster. We work with \nbusiness leaders to bring together people, new \nideas, and technology to create unique and \nviable platforms for their customers.',
   },
   {
     name: 'Financial Services',
-    title: 'Our customers range from startups to the largest financial institutions across the globe. Staying true to our mission, we’ve helped maximize their ROI.',
+    title: 'Our customers range from startups to the largest \nfinancial institutions across the globe. Staying true \nto our mission, we’ve helped maximize their ROI.',
   },
 ]
 
@@ -382,18 +382,18 @@ export const SERVICE = [
     id: 4,
     image: '/assets/images/services/4.png',
     titile: 'Website',
-    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+    description: 'The Elastic infrastructure supporting is considered to bethousands of concurrent users on an up-gradation basis.'
   },
   {
     id: 5,
     image: '/assets/images/services/5.png',
     titile: 'Website',
-    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+    description: 'The Elastic infrastructure supporting is considered to bethousands of concurrent users on an up-gradation basis.'
   },
   {
     id: 6,
     image: '/assets/images/services/6.png',
     titile: 'Website',
-    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+    description: 'The Elastic infrastructure supporting is considered to bethousands of concurrent users on an up-gradation basis.'
   },
 ]

@@ -2,7 +2,7 @@ import { SERVICE } from '@/const'
 import Image from 'next/image'
 import React from 'react'
 
-
+import arrKey from '/public/assets/icons/service/service-arr.png'
 
 const Service = () => {
   return (
@@ -28,14 +28,14 @@ const Service = () => {
       <div className='mt-20'>
 
 
-        <div className='grid grid-cols-3'>
+        <div className='grid grid-cols-3 gap-[3.6rem]'>
 
           {SERVICE.map((exp) => (
-            <div className='border border-red-500 max-w-[448px] h-auto'>
-              <Image src={exp.image} width={448} height={258} />
-              <div>{exp.titile}</div>
-              <div>{exp.description}</div>
-              <Image src={exp.image} width={20} height={14} />
+            <div key={exp.titile} className='border border-red-500 max-w-[448px] h-auto'>
+              <Image src={exp.image} className='w-full h-auto' width={448} height={258} alt='service-img' />
+              <div className='font-ibmPlexSans font-light text-2xl mt-4'>{exp.titile}</div>
+              <div className='mt-4 font-ibmPlexSans font-light text-[1.1rem]'>{exp.description}</div>
+              <Image src={arrKey} className='mt-9 w-[20px] h-[14px] ' width={20} height={14} alt='arrow-key' />
             </div>
 
           ))}

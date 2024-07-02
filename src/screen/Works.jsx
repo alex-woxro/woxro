@@ -62,7 +62,9 @@ const Works = () => {
                 <div key={index} className="max-w-[350px] w-full h-full   flex flex-col gap-4 ">
                   <Image src={card?.image} alt='card-img' className=' lg:w-[110px] lg:h-[100px] 3xl:h-[125px] 3xl:w-[140px] ' height={125} width={140} />
                   <div className='lg:text-sm xl:text-base 3xl:text-lg font-ibmPlexSans font-normal'>{card.name}</div>
-                  <div className='lg:text-sm  xl:text-base 3xl:text-lg font-ibmPlexSans font-light text-dull-grey'>{card.title}</div>
+                  <div className='lg:text-sm  xl:text-base 3xl:text-lg font-ibmPlexSans font-light text-dull-grey'
+                    dangerouslySetInnerHTML={{ __html: card.title.replace(/\n/g, '<br />') }}
+                  ></div>
                 </div>
               ))}
             </div>
@@ -94,7 +96,9 @@ const Works = () => {
               {INDUSTRY_CARD.map((card, index) => (
                 <div key={index} className="max-w-[556px] w-full h-full  flex flex-col gap-6">
                   <div className='lg:text-sm xl:text-base 3xl:text-xl font-normal font-ibmPlexSans'>{card.name}</div>
-                  <div className='lg:text-sm  xl:text-base 3xl:text-lg font-thin font-ibmPlexSans text-custom-white'>{card.title}</div>
+                  <div className='lg:text-sm  xl:text-base 3xl:text-lg font-thin font-ibmPlexSans text-custom-white'
+                    dangerouslySetInnerHTML={{ __html: card.title.replace(/\n/g, '<br />') }}
+                  ></div>
                 </div>
               ))}
             </div>
