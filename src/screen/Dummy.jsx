@@ -3,9 +3,6 @@ import React from 'react'
 const Dummy = () => {
   return (
     <div>
-
-
-
       <div className='outer-container  border border-black'>
         <div className='text-white text-2xl z-[999999999999] border
       flex justify-center h-screen items-center

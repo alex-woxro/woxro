@@ -8,6 +8,7 @@ const Design = () => {
 
   return (
     <section className="snapping-container">
+
       <div className='snapping-section bg-black'>
         <div className='flex justify-center items-center h-screen m-auto'>
           <div className='text-white px-[70px]'>

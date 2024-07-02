@@ -15,8 +15,10 @@ export default function Home() {
       {/* <Design /> */}
 
 
-      <Dummy />
-      {/* <Dummy2 /> */}
+      {/* <Dummy /> */}
+
+
+      <Dummy2 />
 
 
 
@@ -26,7 +28,7 @@ export default function Home() {
       <Consult />
       <Footer /> */}
 
-      {/* <Works /> */}
+      <Works />
 
     </main>
   );
