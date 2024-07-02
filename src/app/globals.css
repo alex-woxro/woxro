@@ -64,11 +64,77 @@
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color:black;
+  color: black;
 }
 
 .progress-title {
   /* border: 1px solid black; */
   max-width: 380px;
   width: 100%;
+}
+
+.snapping-container {
+  height: 100vh; /* Ensure the container has a height to enable scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scroll-snap-type: y mandatory; /* Enable mandatory snapping in the vertical direction */
+}
+
+.snapping-section {
+  height: 100vh; /* Ensure each section takes up the full viewport height */
+  scroll-snap-align: start; /* Align sections to start of viewport when snapping */
+}
+
+/* animation */
+.outer-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  inset: 0;
+  margin: auto;
+  background: black;
+  /* filter: blur(100px);
+  opacity: 0.5; */
+}
+
+.inner-container {
+  border-radius: 99999px;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  min-width: 1000px;
+  overflow: hidden;
+  transform: scale(0.6);
+  filter: blur(100px);
+  opacity: 0.6;
+}
+
+.blob {
+  width: 100vw;
+  height: 100vh;
+  inset: 0;
+  margin: auto;
+  background: conic-gradient(
+    from 0deg,
+    #18969e66,
+    #00c5d166,
+    #00c5c566,
+    #0075fe66,
+    #0b07ca66,
+    #0b07ca66
+  );
+
+  animation: spinBlob 8s linear infinite;
+}
+
+@keyframes spinBlob {
+  0% {
+    transform: rotate(0deg) scale(2);
+  }
+
+  100% {
+    transform: rotate(1turn) scale(2);
+  }
 }

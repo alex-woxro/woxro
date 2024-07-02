@@ -19,7 +19,7 @@ const Service = () => {
   console.log("selecetd", selected);
 
   return (
-    <div className='pt-[154px] pb-[170px] px-[100px] border border-green-500'>
+    <div className='pt-[154px] pb-[170px] px-[100px]'>
 
       <div className='flex justify-between'>
         <div className='roboto font-thin text-[70px]'>{selected === 1 ? 'Services' : selected === 2 ? 'Consulting' : ''}</div>

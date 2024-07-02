@@ -189,16 +189,8 @@ const Works = () => {
                 <Image src='/assets/images/photos/6.png' className='h-full w-full object-cover' height={426} width={330} alt='photo' />
               </div>
             </div>
-
           </div>
-
         </div>
-
-
-
-
-
-
 
 
 
