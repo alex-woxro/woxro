@@ -33,6 +33,7 @@ const Works = () => {
         </div>
       </div>
 
+
       {/* <div className='text-white  py-80 flex flex-col justify-center items-center gap-20 bg-[#0B0B0B]'>
         <div className='text-center  text-7xl font-extralight font-roboto'> It's all about an elegant & <br /> seamless design</div>
         <div className='text-center font-ibmPlexSans font-extralight text-xl'>Our journey is marked by a relentless pursuit of perfection,where every stroke of our <br />
@@ -43,8 +44,8 @@ const Works = () => {
 
 
 
-      <div className='bg-black text-white'>
 
+      <div className='bg-black text-white'>
         <div className='py-40'>
           <div className='flex flex-col gap-7 justify-center items-center'>
             <div className='text-center lg:text-4xl 2xl:text-5xl 3xl:text-6xl  font-extralight font-roboto'>Why Choose Us?</div>
@@ -55,14 +56,15 @@ const Works = () => {
           </div>
         </div>
 
+
         <div className='pb-56'>
-          <div className='m-auto w-[80%] flex justify-center'>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-[100px]">
+          <div className='m-auto w-[80%] flex justify-center '>
+            <div className="grid grid-cols-1 lg:grid-cols-3  lg:gap-6 2xl:gap-[5rem]">
               {CHOOSE_CARD.map((card, index) => (
-                <div key={index} className="max-w-[350px] w-full h-full   flex flex-col gap-4 ">
+                <div key={index} className="max-w-[400px] w-full h-full  flex flex-col gap-4 ">
                   <Image src={card?.image} alt='card-img' className=' lg:w-[110px] lg:h-[100px] 3xl:h-[125px] 3xl:w-[140px] ' height={125} width={140} />
                   <div className='lg:text-sm xl:text-base 3xl:text-lg font-ibmPlexSans font-normal'>{card.name}</div>
-                  <div className='lg:text-sm  xl:text-base 3xl:text-lg font-ibmPlexSans font-light text-dull-grey'
+                  <div className='lg:text-xs  xl:text-base 3xl:text-lg font-ibmPlexSans font-light text-dull-grey'
                     dangerouslySetInnerHTML={{ __html: card.title.replace(/\n/g, '<br />') }}
                   ></div>
                 </div>
@@ -91,8 +93,8 @@ const Works = () => {
 
 
         <div className='mt-60'>
-          <div className='m-auto w-[80%] flex justify-center'>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-[100px]">
+          <div className='m-auto  flex justify-center'>
+            <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-1 xl:gap-9 2xl:gap-16 3xl:gap-20">
               {INDUSTRY_CARD.map((card, index) => (
                 <div key={index} className="max-w-[556px] w-full h-full  flex flex-col gap-6">
                   <div className='lg:text-sm xl:text-base 3xl:text-xl font-normal font-ibmPlexSans'>{card.name}</div>
@@ -148,10 +150,57 @@ const Works = () => {
 
           <div className='border border-red-500 w-full max-w-[330px] max-h-[426px]'>
             <Image src='/assets/images/photos/6.png' className='h-full w-full' height={426} width={330} alt='photo' /></div>
-
-
-
         </div> */}
+
+
+
+
+        <div className='mt-20 w-full flex justify-center'>
+
+          <div className='w-[85%]  flex justify-center'>
+
+            <div className='grid grid-cols-4 max-h-[426px] max-w-[80%] gap-4 '>
+
+              <div className='max-h-[426px] max-w-[330px] '>
+                <Image src='/assets/images/photos/1.png' className='w-full h-full object-cover' height={426} width={330} alt='photo' />
+              </div>
+
+
+              <div className='flex flex-col gap-4 '>
+                <div className=' h-full'>
+                  <Image src='/assets/images/photos/2.png' className='h-fit w-fit' height={210} width={330} alt='photo' />
+                </div>
+                <div className=' h-full' >
+                  <Image src='/assets/images/photos/3.png' className='h-fit w-fit' height={210} width={330} alt='photo' />
+                </div>
+              </div>
+
+
+              <div className='flex flex-col gap-4'>
+                <div className='h-full '>
+                  <Image src='/assets/images/photos/4.png' className='h-fit w-fit' height={210} width={330} alt='photo' />
+                </div>
+                <div className='h-full' >
+                  <Image src='/assets/images/photos/5.png' className='h-fit w-fit' height={210} width={330} alt='photo' />
+                </div>
+              </div>
+
+              <div className='max-h-[426px]'>
+                <Image src='/assets/images/photos/6.png' className='h-full w-full object-cover' height={426} width={330} alt='photo' />
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
 
         <div className='max-w-[80%] w-full text-center mt-20 lg:text-lg  2xl:text-xl  3xl:text-[1.5rem]  font-light font-ibmPlexSans'>Our journey is marked by a relentless pursuit of perfection, where every stroke of our creative process is aimed at leaving a lasting <br />
           impression. Join us in reimagining the world through design that not only speaks, but also resonates.</div>
