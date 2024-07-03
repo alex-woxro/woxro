@@ -9,9 +9,11 @@ import Works from "@/screen/Works";
 export default function Home() {
   return (
     <main >
-      <Banner />
-      {/* <Design />
-      <Works />
+      {/* <Banner /> */}
+      {/* <Design /> */}
+      <Dummy />
+      {/* <Works /> */}
+      {/* <Works />
       <Consult />
       <Footer /> */}
       {/* <Dummy /> */}

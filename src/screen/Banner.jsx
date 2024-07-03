@@ -14,11 +14,11 @@ const Banner = () => {
           Your browser does not support the video tag.
         </video>
         <div className="relative z-10 flex flex-col justify-end h-full text-white pb-[5%]">
-          <div className='w-full flex justify-center '>
-            <div className='w-[93%]'>
+          <div className='w-full flex lg:justify-center px-5 lg:px-0 '>
+            <div className='lg:w-[93%]'>
 
-              <div className='flex justify-between items-center'>
-                <div className='font-roboto font-light lg:text-5xl xl:text-6xl 3xl:text-[70px] 3xl:leading-[82px]'>
+              <div className='flex flex-col gap-10 lg:gap-0 lg:flex-row lg:justify-between lg:items-center'>
+                <div className='font-roboto font-light text-4xl lg:text-5xl xl:text-6xl 3xl:text-[70px] 3xl:leading-[82px]'>
                   Crafting Digital <br /> Transformation Services & <br />Solutions
                 </div>
                 <div className='flex gap-2'>
