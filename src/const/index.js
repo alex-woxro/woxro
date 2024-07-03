@@ -364,36 +364,36 @@ export const SERVICE = [
     id: 1,
     image: '/assets/images/services/1.png',
     titile: 'Website',
-    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+    description: 'The Elastic infrastructure supporting thousands of \nconcurrent users on an up-gradation basis.'
   },
   {
     id: 2,
     image: '/assets/images/services/2.png',
-    titile: 'Website',
-    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+    titile: 'E-commerce',
+    description: 'The Elastic infrastructure supporting thousands of \nconcurrent users on an up-gradation basis.'
   },
   {
     id: 3,
     image: '/assets/images/services/3.png',
-    titile: 'Website',
-    description: 'The Elastic infrastructure supporting thousands of concurrent users on an up-gradation basis.'
+    titile: 'Mobile Apps',
+    description: 'The Elastic infrastructure supporting thousands of \nconcurrent users on an up-gradation basis.'
   },
   {
     id: 4,
     image: '/assets/images/services/4.png',
-    titile: 'Website',
-    description: 'The Elastic infrastructure supporting is considered to bethousands of concurrent users on an up-gradation basis.'
+    titile: 'Digital Marketing',
+    description: 'The Elastic infrastructure supporting  is considered \nto bethousands of concurrent users on an up-\ngradation basis.'
   },
   {
     id: 5,
     image: '/assets/images/services/5.png',
-    titile: 'Website',
-    description: 'The Elastic infrastructure supporting is considered to bethousands of concurrent users on an up-gradation basis.'
+    titile: 'Search Engine Optimisation',
+    description: 'The Elastic infrastructure which is a superb \nsupporting thousands of concurrent users on an up-\ngradation basis.'
   },
   {
     id: 6,
     image: '/assets/images/services/6.png',
-    titile: 'Website',
-    description: 'The Elastic infrastructure supporting is considered to bethousands of concurrent users on an up-gradation basis.'
+    titile: 'Design & Production',
+    description: 'The Elastic infrastructure supporting thousands of \nconcurrent users on an up-gradation basis.'
   },
 ]

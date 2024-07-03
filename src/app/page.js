@@ -17,8 +17,8 @@ export default function Home() {
 
       {/* <Dummy /> */}
 
-
-      <Dummy2 />
+{/* 
+      <Dummy2 /> */}
 
 
 

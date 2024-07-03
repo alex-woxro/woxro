@@ -20,11 +20,11 @@ const Works = () => {
           </div>
         </div>
 
-        <div className='m-auto w-[70%]'>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-[30px] place-items-center">
+        <div className='m-auto max-w-[75%] w-fit '>
+          <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-[25px] xl:gap-[40px] 2xl:gap-y-[96px]  place-items-center">
             {WORKS_CARD.map((card, index) => (
-              <div key={index} className="2xl:w-[300px] h-full xl:w-[250px] lg:w-[200px]  flex flex-col gap-2">
-                <Image src={card.image} height={300} width={300} alt='card-img' />
+              <div key={index} className="max-w-[350px] w-full h-full flex flex-col gap-2 ">
+                <Image src={card.image} className='w-full h-full object-cover' height={300} width={300} alt='card-img' />
                 <div className='text-[#0E4FCA] lg:text-base  2xl:text-xl  font-ibmPlexSans font-normal'>{card.name}</div>
                 <div className='text-[#000000] 3xl:leading-[1.3rem] lg:text-sm 2xl:text-base  font-ibmPlexSans font-normal'>{card.title}</div>
               </div>
@@ -58,7 +58,7 @@ const Works = () => {
 
 
         <div className='pb-56'>
-          <div className='m-auto w-[80%] flex justify-center '>
+          <div className='m-auto w-[80%] flex justify-center'>
             <div className="grid grid-cols-1 lg:grid-cols-3  lg:gap-6 2xl:gap-[5rem]">
               {CHOOSE_CARD.map((card, index) => (
                 <div key={index} className="max-w-[400px] w-full h-full  flex flex-col gap-4 ">
@@ -76,11 +76,7 @@ const Works = () => {
 
       </div>
 
-
-
       <Service />
-
-
 
 
       <div className='pt-52 pb-96 flex flex-col justify-center items-center bg-[#0B0B0B] text-white'>
