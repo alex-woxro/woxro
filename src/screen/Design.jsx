@@ -8,9 +8,9 @@ import { BackgroundGradientAnimation } from '@/components/animation/BackgroundGr
 const Design = () => {
 
   return (
-    <section className="snapping-container">
+    <section>
 
-      <div className='snapping-section'>
+      <div>
         <BackgroundGradientAnimation>
           <div className="absolute z-50 inset-0 pointer-events-none">
             <div className='flex justify-center items-center h-screen m-auto'>
@@ -34,7 +34,7 @@ const Design = () => {
       </div>
 
 
-      <div className='snapping-section'>
+      <div>
         <BackgroundGradientAnimation>
           <div className="absolute z-50 inset-0 pointer-events-none">
             <div className='flex justify-center items-center h-screen'>
@@ -64,7 +64,9 @@ export default Design
 
 
 
+{/* <section className="snapping-container">
 
+<div className='snapping-section'> */}
 
 
 

@@ -9,7 +9,6 @@ const Service = () => {
 
   const [selected, setSelected] = useState(1);
 
-
   const selectHandler = (value) => {
     setSelected(value);
   }

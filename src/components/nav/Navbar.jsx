@@ -28,7 +28,7 @@ const Navbar = () => {
   }, []); // Empty dependency array ensures this effect runs only once after initial render
 
   return (
-    <div className={`z-[9999] fixed w-full bg-pink-500 ${color ? 'bg-black' : ''} 3xl:pl-16 3xl:pr-24 pt-5 px-10`}>
+    <div className={`z-[9999] fixed w-full ${color ? 'bg-black' : ''} 3xl:pl-16 3xl:pr-24 pt-5 px-10`}>
 
       <div className='flex justify-between items-center '>
 
