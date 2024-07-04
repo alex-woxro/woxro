@@ -8,16 +8,15 @@ import Works from "@/screen/Works";
 
 export default function Home() {
   return (
-    <main >
-      {/* <Banner /> */}
-      {/* <Design /> */}
-      <Dummy />
-      {/* <Works /> */}
-      {/* <Works />
+    <main>
+      <Banner />
+      <Design />
+      <Works />
       <Consult />
-      <Footer /> */}
+      <Footer />
+
       {/* <Dummy /> */}
-      {/*  <Dummy2 /> */}
+      {/* <Dummy2 /> */}
     </main>
   );
 }

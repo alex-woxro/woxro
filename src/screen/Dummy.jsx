@@ -1,24 +1,63 @@
+import { BackgroundGradientAnimation } from '@/components/animation/BackgroundGradientAnimation'
 import React from 'react'
+import Image from 'next/image'
+import designImg from '/src/assets/images/design/Design.png'
+import { PiGreaterThanThin } from "react-icons/pi";
+
+
 
 const Dummy = () => {
   return (
-    <div className='bg-blue-200 px-[20px] h-screen overflow-auto'>
 
-      <div className='flex justify-center items-center h-full'>
-        <div className='overflow-auto max-h-full'>
-          Lorem Ipsum
-
-          Where does it come from?
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-          The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-          Where can I get some?
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+    <>
+      <BackgroundGradientAnimation>
+        <div className="absolute z-50 inset-0 pointer-events-none h-screen">
+          <div className='px-5 flex lg:justify-center items-center h-full'>
+            <div className='flex flex-col gap-24'>
+              <div className='text-white lg:px-[70px]'>
+                <div className='flex gap-3 items-center'>
+                  <div className='text-lg sm:text-xl lg:text-2xl font-ibmPlexSans font-extralight'>View all services</div>
+                  <div><PiGreaterThanThin /></div>
+                </div>
+                <div className='text-[75px] lg:text-[85px] 2xl:text-[100px] 3xl:text-[150px] font-extralight font-roboto  max-w-[600px] w-full'>Services</div>
+                <div className='text-base sm:text-xl lg:text-2xl 2xl:text-3xl 3xl:text-[32px] font-thin font-ibmPlexSans max-w-[600px] w-full '>
+                  Websites / E-Commerce /  Mobile Apps
+                  Digital Marketing / Search Engine Optimisation
+                  Design & Production</div>
+              </div>
+              <div className='text-white lg:px-[70px] lg:hidden'>
+                <div className='flex gap-3 items-center'>
+                  <div className='text-lg sm:text-xl lg:text-2xl font-ibmPlexSans font-extralight '>View all services</div>
+                  <div><PiGreaterThanThin /></div>
+                </div>
+                <div className='text-[75px] lg:text-[85px] 2xl:text-[100px] 3xl:text-[150px] font-extralight font-roboto  max-w-[600px] w-full'>Consulting</div>
+                <div className='text-base sm:text-xl lg:text-2xl 2xl:text-3xl 3xl:text-[32px] font-thin font-ibmPlexSans max-w-[600px] w-full '>
+                  Websites / E-Commerce /  Mobile Apps
+                  Digital Marketing / Search Engine Optimisation
+                  Design & Production</div>
+              </div>
+            </div>
+            <div className='hidden lg:block max-w-[800px] max-h-[780px]'>
+              <Image src={designImg} alt='design' className='w-full h-auto' />
+            </div>
+          </div>
         </div>
-      </div>
-
-    </div>
+      </BackgroundGradientAnimation>
+      <BackgroundGradientAnimation>
+        <div className="absolute z-50 inset-0 pointer-events-none h-screen ">
+          <div className='flex justify-center items-center h-full'>
+            <div className='text-[30px] leading-[60px] lg:text-[40px] lg:leading-[65px] font-light font-ibmPlexSans w-full px-5 lg:w-[70%] m-auto'>
+              <span
+              > To achieve and maintain high standards we are committed to investing in the most
+                talented IT support specialists in India, with the experience, creativity ,</span>
+              <span >
+                and qualifications to exceed  the highest expectations.We are known for our works and we hope you enjoy looking at some of our recent works.
+              </span>
+            </div>
+          </div>
+        </div>
+      </BackgroundGradientAnimation>
+    </>
   )
 }
 

@@ -9,23 +9,23 @@ import Service from './Service';
 const Works = () => {
   return (
     <div>
-      <div className='pb-[177px]'>
+      <div className='pb-[83px] lg:pb-[177px] px-5'>
         <div className='flex flex-col items-center'>
-          <div className='flex flex-col items-center  pt-[150px] pb-[70px] lg:gap-2 2xl:gap-8'>
-            <div className='font-light lg:text-4xl xl:text-5xl 2xl:text-6xl  font-roboto'>Our Works</div>
-            <div className='lg:text-lg xl:text-xl  2xl:text-2xl  font-light text-center font-ibmPlexSans'>
+          <div className='flex flex-col items-center pt-[84px] lg:pt-[150px] gap-[19px] lg:gap-[24px] 2xl:gap-8'>
+            <div className='font-light text-4xl lg:text-5xl 2xl:text-6xl font-roboto'>Our Works</div>
+            <div className='text-[15px] lg:text-lg xl:text-xl  2xl:text-2xl  font-light text-center font-ibmPlexSans'>
               Preparing for your success, we provide truly prominent IT solutions.
               Global Web Designing Company <br />That Provides Full-cycle Software Development Services,E-commerce & Mobile App Development Services.
             </div>
           </div>
         </div>
 
-        <div className='m-auto max-w-[75%] w-fit '>
-          <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-[25px] xl:gap-[40px] 2xl:gap-y-[96px]  place-items-center">
+        <div className='m-auto lg:max-w-[75%] w-fit pt-[82px] lg:pt-[116px]'>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[52px] lg:gap-[25px] xl:gap-[40px] 2xl:gap-y-[96px]  place-items-center">
             {WORKS_CARD.map((card, index) => (
-              <div key={index} className="max-w-[350px] w-full h-full flex flex-col gap-2 ">
+              <div key={index} className="sm:max-w-[350px] w-full h-full flex flex-col gap-2 ">
                 <Image src={card.image} className='w-full h-full object-cover' height={300} width={300} alt='card-img' />
-                <div className='text-[#0E4FCA] lg:text-base  2xl:text-xl  font-ibmPlexSans font-normal'>{card.name}</div>
+                <div className='text-[#0E4FCA] text-base  2xl:text-xl  font-ibmPlexSans font-normal'>{card.name}</div>
                 <div className='text-[#000000] 3xl:leading-[1.3rem] lg:text-sm 2xl:text-base  font-ibmPlexSans font-normal'>{card.title}</div>
               </div>
             ))}
@@ -34,6 +34,9 @@ const Works = () => {
       </div>
 
 
+
+
+      {/* olddddddd */}
       {/* <div className='text-white  py-80 flex flex-col justify-center items-center gap-20 bg-[#0B0B0B]'>
         <div className='text-center  text-7xl font-extralight font-roboto'> It's all about an elegant & <br /> seamless design</div>
         <div className='text-center font-ibmPlexSans font-extralight text-xl'>Our journey is marked by a relentless pursuit of perfection,where every stroke of our <br />
@@ -44,12 +47,11 @@ const Works = () => {
 
 
 
-
       <div className='bg-black text-white'>
-        <div className='py-40'>
-          <div className='flex flex-col gap-7 justify-center items-center'>
-            <div className='text-center lg:text-4xl 2xl:text-5xl 3xl:text-6xl  font-extralight font-roboto'>Why Choose Us?</div>
-            <div className='text-center lg:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl font-ibmPlexSans font-extralight'>
+        <div className='py-24 lg:py-40'>
+          <div className='flex flex-col gap-5 lg:gap-8 justify-center items-center px-5'>
+            <div className='text-center text-4xl lg:text-5xl 2xl:text-6xl font-extralight font-roboto'>Why Choose Us?</div>
+            <div className='text-center lg:text-xl 2xl:text-2xl font-ibmPlexSans font-extralight'>
               From the beginning, We have been setting up the team by individuals who have gone beyond the limits of <br /> personal
               goals and who have the passion to do things from the bottom of their heart.
             </div>
@@ -57,14 +59,14 @@ const Works = () => {
         </div>
 
 
-        <div className='pb-56'>
-          <div className='m-auto w-[80%] flex justify-center'>
-            <div className="grid grid-cols-1 lg:grid-cols-3  lg:gap-6 2xl:gap-[5rem]">
+        <div className='pb-[137px]'>
+          <div className='m-auto max-w-[80%] w-full flex lg:justify-center'>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[5rem]">
               {CHOOSE_CARD.map((card, index) => (
                 <div key={index} className="max-w-[400px] w-full h-full  flex flex-col gap-4 ">
-                  <Image src={card?.image} alt='card-img' className=' lg:w-[110px] lg:h-[100px] 3xl:h-[125px] 3xl:w-[140px] ' height={125} width={140} />
-                  <div className='lg:text-sm xl:text-base 3xl:text-lg font-ibmPlexSans font-normal'>{card.name}</div>
-                  <div className='lg:text-xs  xl:text-base 3xl:text-lg font-ibmPlexSans font-light text-dull-grey'
+                  <Image src={card?.image} alt='card-img' className=' lg:w-[110px] lg:h-[100px] 3xl:h-[125px] 3xl:w-[140px]' height={125} width={140} />
+                  <div className='text-lg font-ibmPlexSans font-normal'>{card.name}</div>
+                  <div className='text-lg font-ibmPlexSans font-light text-dull-grey'
                     dangerouslySetInnerHTML={{ __html: card.title.replace(/\n/g, '<br />') }}
                   ></div>
                 </div>
@@ -73,10 +75,11 @@ const Works = () => {
           </div>
         </div>
 
-
       </div>
 
+
       <Service />
+
 
 
       <div className='pt-52 pb-96 flex flex-col justify-center items-center bg-[#0B0B0B] text-white'>
@@ -107,48 +110,10 @@ const Works = () => {
 
 
 
-      {/* h-[426px]  */}
-
-
 
       <div className='my-40 flex flex-col justify-center items-center'>
 
         <div className='font-roboto  font-extralight text-[4rem]'>Life at <span className='font-medium'>W!</span></div>
-
-
-
-
-
-        {/* <div className='border border-black flex gap-2 mt-20'>
-          <div className='border border-red-500 w-full max-w-[330px] max-h-[426px]'>
-            <Image src='/assets/images/photos/1.png' className='w-full h-auto' height={426} width={330} alt='photo' />
-          </div>
-          <div>
-
-            <div className='flex gap-2'>
-              <div className='border border-black max-w-[330px] max-h-[210px]'>
-                <Image src='/assets/images/photos/2.png' className='h-full w-full' height={210} width={330} alt='photo' />
-              </div>
-              <div className='border border-black max-w-[330px] max-h-[210px]'>
-                <Image src='/assets/images/photos/3.png' className='h-full w-full' height={210} width={330} alt='photo' />
-              </div>
-            </div>
-
-            <div className='flex gap-2 mt-1'>
-              <div className='border border-black max-w-[330px] max-h-[210px]'>
-                <Image src='/assets/images/photos/4.png' className='h-full w-full' height={210} width={330} alt='photo' />
-              </div>
-              <div className='border border-black max-w-[330px] max-h-[210px]'>
-                <Image src='/assets/images/photos/5.png' className='h-full w-full' height={210} width={330} alt='photo' />
-              </div>
-            </div>
-          </div>
-
-          <div className='border border-red-500 w-full max-w-[330px] max-h-[426px]'>
-            <Image src='/assets/images/photos/6.png' className='h-full w-full' height={426} width={330} alt='photo' /></div>
-        </div> */}
-
-
 
 
         <div className='mt-20 w-full flex justify-center'>
