@@ -20,7 +20,7 @@ const Works = () => {
           </div>
         </div>
 
-        <div className='m-auto lg:max-w-[75%] w-fit pt-[82px] lg:pt-[116px]'>
+        <div className='m-auto  w-fit pt-[82px] lg:pt-[116px]'>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[52px] lg:gap-[25px] xl:gap-[40px] 2xl:gap-y-[96px]  place-items-center">
             {WORKS_CARD.map((card, index) => (
               <div key={index} className="sm:max-w-[350px] w-full h-full flex flex-col gap-2 ">
@@ -63,7 +63,7 @@ const Works = () => {
           <div className='m-auto max-w-[80%] w-full flex lg:justify-center'>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[5rem]">
               {CHOOSE_CARD.map((card, index) => (
-                <div key={index} className="max-w-[400px] w-full h-full  flex flex-col gap-4 ">
+                <div key={index} className="max-w-[400px] w-full h-full flex flex-col gap-4 ">
                   <Image src={card?.image} alt='card-img' className=' lg:w-[110px] lg:h-[100px] 3xl:h-[125px] 3xl:w-[140px]' height={125} width={140} />
                   <div className='text-lg font-ibmPlexSans font-normal'>{card.name}</div>
                   <div className='text-lg font-ibmPlexSans font-light text-dull-grey'
