@@ -10,7 +10,6 @@ const Design = () => {
   const myRef = useRef();
   const [myElementIsVisible, setMyElementIsVisible] = useState(false);
 
-  // console.log("myElementIsVisible", myElementIsVisible);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -30,6 +29,16 @@ const Design = () => {
 
   return (
     <>
+
+
+
+
+
+
+
+
+
+
 
 
       <div className='bg-[#0B0B0B] pt-[122px] pb-[200px] flex flex-col gap-[250px]'>
@@ -76,6 +85,20 @@ const Design = () => {
         </div>
 
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       {/* <BackgroundGradientAnimation>
