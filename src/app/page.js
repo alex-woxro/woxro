@@ -11,16 +11,16 @@ import Works from "@/screen/Works";
 export default function Home() {
   return (
     <main>
-      {/* <Banner />
+      {/* <Banner /> */}
       <Design />
-      <Works />
+      {/* <Works />
       <Consult />
       <Footer /> */}
 
 
 
 
-      {/* <Dummy /> */}
+      <Dummy />
 
 
 
