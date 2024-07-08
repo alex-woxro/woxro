@@ -2,7 +2,6 @@ import "./globals.css";
 import Navbar from "@/components/nav/Navbar";
 import { Inter, Poppins, Roboto, IBM_Plex_Sans } from 'next/font/google'
 
-
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
@@ -21,13 +20,11 @@ const roboto = Roboto({
   weight: ['100', '300', '400', '500'],
 })
 
-
 const ibmPlexSans = IBM_Plex_Sans({
   subsets: ['latin'],
   variable: '--font-ibm-plex-sans',
   weight: ['200', '300', '400', '500'],
 });
-
 
 
 export const metadata = {
@@ -39,7 +36,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} ${poppins.variable} ${roboto.variable} ${ibmPlexSans.variable}`}>
-        {/* <Navbar /> */}
+        <Navbar />
         {children}
       </body>
     </html>

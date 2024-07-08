@@ -43,8 +43,8 @@ const Design = () => {
         </div>
       </BackgroundGradientAnimation>
 
-      {/* <BackgroundGradientAnimation>
-        <div className="absolute z-50 inset-0 pointer-events-none border flex items-end w-full justify-center border-black pb-[10rem]">
+      <BackgroundGradientAnimation>
+        <div className="absolute z-50 inset-0 pointer-events-none  flex items-end w-full justify-center  pb-[10rem]">
           <div className='text-[30px] leading-[60px] lg:text-[40px] lg:leading-[65px] font-light font-ibmPlexSans w-full px-5 lg:w-[70%]'>
             <span className={`transition-colors duration-2000 'text-white' `}
             > To achieve and maintain high standards we are committed to investing in the most
@@ -54,7 +54,7 @@ const Design = () => {
             </span>
           </div>
         </div>
-      </BackgroundGradientAnimation> */}
+      </BackgroundGradientAnimation>
     </>
   )
 }

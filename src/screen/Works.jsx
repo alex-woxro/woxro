@@ -112,21 +112,13 @@ const Works = () => {
 
 
       <div className='my-40 flex flex-col justify-center items-center'>
-
         <div className='font-roboto  font-extralight text-[4rem]'>Life at <span className='font-medium'>W!</span></div>
-
-
         <div className='mt-20 w-full flex justify-center'>
-
           <div className='w-[85%]  flex justify-center'>
-
             <div className='grid grid-cols-4 max-h-[426px] max-w-[80%] gap-4 '>
-
               <div className='max-h-[426px] max-w-[330px] '>
                 <Image src='/assets/images/photos/1.png' className='w-full h-full object-cover' height={426} width={330} alt='photo' />
               </div>
-
-
               <div className='flex flex-col gap-4 '>
                 <div className=' h-full'>
                   <Image src='/assets/images/photos/2.png' className='h-fit w-fit' height={210} width={330} alt='photo' />
@@ -135,8 +127,6 @@ const Works = () => {
                   <Image src='/assets/images/photos/3.png' className='h-fit w-fit' height={210} width={330} alt='photo' />
                 </div>
               </div>
-
-
               <div className='flex flex-col gap-4'>
                 <div className='h-full '>
                   <Image src='/assets/images/photos/4.png' className='h-fit w-fit' height={210} width={330} alt='photo' />
@@ -145,16 +135,12 @@ const Works = () => {
                   <Image src='/assets/images/photos/5.png' className='h-fit w-fit' height={210} width={330} alt='photo' />
                 </div>
               </div>
-
               <div className='max-h-[426px]'>
                 <Image src='/assets/images/photos/6.png' className='h-full w-full object-cover' height={426} width={330} alt='photo' />
               </div>
             </div>
           </div>
         </div>
-
-
-
         <div className='max-w-[80%] w-full text-center mt-20 lg:text-lg  2xl:text-xl  3xl:text-[1.5rem]  font-light font-ibmPlexSans'>Our journey is marked by a relentless pursuit of perfection, where every stroke of our creative process is aimed at leaving a lasting <br />
           impression. Join us in reimagining the world through design that not only speaks, but also resonates.</div>
         <div className='flex gap-10 mt-20'>
@@ -168,9 +154,6 @@ const Works = () => {
           </div>
         </div>
       </div>
-
-
-
       <div className='bg-[#0B0B0B] pt-60 pb-36 px-28 text-white flex flex-col gap-14'>
         <div className='font-roboto font-thin lg:text-4xl 2xl:text-5xl 3xl:text-[4rem] 3xl:leading-[4.6rem]'>We're building an equitable world by <br />championing change with digital.</div>
         <div className='font-ibmPlexSans font-thin lg:text-lg 2xl:text-xl 3xl:text-2xl text-[#B0B0B0]'>
